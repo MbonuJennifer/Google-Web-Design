@@ -1,0 +1,142 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto+Condensed:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+
+}
+a{
+  color:  #1A0DAB !important;
+  text-decoration: none !important;
+}
+a:hover{
+  text-decoration: underline !important;
+  text-decoration-color: #1A0DAB !important;
+}
+.navBox {
+  margin-top: 1.5rem;
+  padding: 0 2rem;
+}
+.googleBrandLogo {
+  width: 6rem;
+  height: 1.8rem;
+}
+.formInput {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#paratext {
+  font-family: "Open Sans", sans-serif;
+  color: #70757a;
+  font-size: 14px;
+  line-height: 43px;
+  padding: 0 5rem;
+  font-weight: 400;
+  margin: 0;
+}
+.line2 {
+  padding: 0 3rem;
+  margin: 2rem 2rem 0 2rem;
+  font-family: "Roboto", sans-serif;
+  color: #5f6368;
+  font-size: 14px;
+  line-height: 16px;
+}
+.messi1 {
+  width: 3rem;
+  height: 1.5rem;
+}
+.messiCard {
+  width: 15rem;
+  border: none !important;
+}
+.messi1-CardTitle {
+  font-size: 28px;
+  line-height: 36px;
+}
+.mText {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+
+  padding-right: 1rem;
+}
+.text2 {
+  font-size: 14px;
+  line-height: 16px;
+}
+.overview{
+  background-color: #d8d7dc;
+  border: 1px solid #3f374f;
+  text-align: center;
+  color: #3f374f;
+  padding: 10px 20px;
+}
+.overviewOthers{
+  padding: 10px 20px;
+  background-color: #e7e7ea;
+
+}
+.overviewOthers, .moreNews {
+  color: #3f374f;
+}
+.line3 {
+  padding-left: 5rem;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+.bigCol {
+  padding-left: 7rem;
+}
+.cardGrp {
+  width: 40.75rem;
+}
+.aboutText {
+  color: #202124;
+  font-size: 18px;
+  line-height: 24px;
+  padding-left: 10px;
+}
+.marginTop {
+  margin-top: 1.5rem !important;
+}
+.aboutBox {
+  width: 22rem !important;
+  border-left: 1px solid #D2D2D2;
+
+}
+.aboutPara {
+  font-size: 14px;
+  padding-left: 10px;
+  color:  #4D5156;
+  line-height: 22.12px;
+}
+.cardImage{
+  display: block;
+}
+.hRule{
+  position: relative;
+}
+.vRule{
+  height: 18rem;
+}
+.moreNews{
+ width: 15rem;
+ text-align: center;
+ padding: 5px 20px;
+ position: absolute;
+ left: 27%;
+ margin: -35px;
+ background-color: #F0F0F0;
+}
+.subTitlesbigCol{
+  font-size: 22px;
+  line-height: 16px;
+}
+.accordion-item{
+  margin-right: 5rem !important;
+}
