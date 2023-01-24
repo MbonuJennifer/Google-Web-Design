@@ -7,17 +7,16 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
   overflow-x: hidden;
-
 }
-a{
-  color:  #1A0DAB !important;
+a {
+  color: #1a0dab !important;
   text-decoration: none !important;
 }
-a:hover{
+a:hover {
   text-decoration: underline !important;
-  text-decoration-color: #1A0DAB !important;
+  text-decoration-color: #1a0dab !important;
 }
 .navBox {
   margin-top: 1.5rem;
@@ -69,19 +68,19 @@ a:hover{
   font-size: 14px;
   line-height: 16px;
 }
-.overview{
+.overview {
   background-color: #d8d7dc;
   border: 1px solid #3f374f;
   text-align: center;
   color: #3f374f;
   padding: 10px 20px;
 }
-.overviewOthers{
+.overviewOthers {
   padding: 10px 20px;
   background-color: #e7e7ea;
-
 }
-.overviewOthers, .moreNews {
+.overviewOthers,
+.moreNews {
   color: #3f374f;
 }
 .line3 {
@@ -106,37 +105,73 @@ a:hover{
 }
 .aboutBox {
   width: 22rem !important;
-  border-left: 1px solid #D2D2D2;
-
+  border-left: 1px solid #d2d2d2;
+  height: 71.5rem;
 }
 .aboutPara {
   font-size: 14px;
   padding-left: 10px;
-  color:  #4D5156;
+  color: #4d5156;
   line-height: 22.12px;
 }
-.cardImage{
+.cardImage {
   display: block;
 }
-.hRule{
+.hRule {
   position: relative;
 }
-.vRule{
+.vRule {
   height: 18rem;
 }
-.moreNews{
- width: 15rem;
- text-align: center;
- padding: 5px 20px;
- position: absolute;
- left: 27%;
- margin: -35px;
- background-color: #F0F0F0;
+.moreNews {
+  width: 20rem;
+  text-align: center;
+  height: 2.3rem;
+  position: absolute;
+  left: 27%;
+  margin: -35px;
+  background-color: #f0f0f0;
 }
-.subTitlesbigCol{
+.mNewsT{
+  color: #202124;
+  display: inline;
+  font-size: 14px;
+line-height: 18px;
+
+
+}
+.subTitlesbigCol {
   font-size: 22px;
   line-height: 16px;
 }
-.accordion-item{
+.accordion-item {
   margin-right: 5rem !important;
+}
+.bcText {
+  font-size: 14px;
+  color: #202124;
+  line-height: 18.2px;
+}
+.newsCTitle{
+  font-size: 20px;
+line-height: 24px;
+}
+.newsCPara{
+  font-size: 14px;
+line-height: 22.12px;
+color:  #4D5156;
+}
+.marginButtomArea{
+  margin-bottom: 2.2rem;
+}
+.playImg{
+  position: relative;
+}
+.playImgSpan{
+  position: absolute;
+  left: 16%;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 2rem;
+ 
 }
