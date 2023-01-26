@@ -199,13 +199,34 @@ a:hover {
   font-size: 15px;
 }
 .footerText1 {
-  color:  #4D5156;
+  color: #4d5156;
   font-size: 15px;
 }
 .footerText2 {
-  color:  #1a0dab;
+  color: #1a0dab;
   font-size: 15px;
 }
 .secondText {
   height: 40px;
+}
+.pageGoogle {
+  font-size: 2.2rem;
+  /* font-family: go; */
+}
+.blueText {
+  color: #4285f4;
+}
+.claimText {
+  width: 15rem;
+  border: 1px solid #dadce0;
+  padding: 4px 0;
+}
+.socials {
+  font-size: 14px;
+  line-height: 18.76px;
+  color: #202124;
+}
+.socialsImg{
+  width: 32px;
+  height: 32px;
 }
